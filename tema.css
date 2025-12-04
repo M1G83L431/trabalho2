@@ -66,14 +66,25 @@ ol {
   padding: 1rem;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  padding: 1rem;
-}
-
-
 .gallery img {
     height: 300px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.navbar-logo {
+  flex: 1;
+  color:rgb(255, 0, 0);
+  text-align: start;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
 }
