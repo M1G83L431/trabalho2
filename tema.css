@@ -80,11 +80,22 @@ ol {
 
 .navbar-logo {
   flex: 1;
-  color:rgb(255, 0, 0);
+  color:rgb(117, 0, 0);
   text-align: start;
 }
 
 .nav-links {
   display: flex;
   gap: 1rem;
+}
+
+li {
+    width: 35%;
+    min-height: 20%;
+    
+}
+
+img {
+    width: 100%;
+    background-color: rgb(150, 61, 61);
 }
